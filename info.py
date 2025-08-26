@@ -51,9 +51,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #S
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/akimax_03")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/akimax_03")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/akimax_03")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/c/2437541681/364")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/c/2437541681/364")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/c/2437541681/364")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "de20394ac3c17f42a2a636168dd67df9820047c9")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
