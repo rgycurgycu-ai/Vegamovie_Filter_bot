@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629 7386197638').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Mahesh8182") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+A4tVZCXbK2s2YzJl')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/akimax06')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002372764752').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -55,14 +55,14 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/c/2437541681/364")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/c/2437541681/364")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/c/2437541681/364")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "de20394ac3c17f42a2a636168dd67df9820047c9")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkpays.in')
+SHORTENER_API = environ.get("SHORTENER_API", "6a2128125dc5b9e5ab892e64b0f2c12133d5db09")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arolinks.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "bb18d59ebe324efc078e61835479d7ed2ac6dedc")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'arolinks.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "de20394ac3c17f42a2a636168dd67df9820047c9")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkpays.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "6a2128125dc5b9e5ab892e64b0f2c12133d5db09")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'arolinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "0"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "28200"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
@@ -79,9 +79,9 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 START_IMG = (environ.get('START_IMG', 'https://telegra.ph/file/7e56d907542396289fee4.jpg https://telegra.ph/file/9aa8dd372f4739fe02d85.jpg https://telegra.ph/file/adffc5ce502f5578e2806.jpg https://telegra.ph/file/6937b60bc2617597b92fd.jpg https://telegra.ph/file/09a7abaab340143f9c7e7.jpg https://telegra.ph/file/5a82c4a59bd04d415af1c.jpg https://telegra.ph/file/323986d3bd9c4c1b3cb26.jpg https://telegra.ph/file/b8a82dcb89fb296f92ca0.jpg https://telegra.ph/file/31adab039a85ed88e22b0.jpg https://telegra.ph/file/c0e0f4c3ed53ac8438f34.jpg https://telegra.ph/file/eede835fb3c37e07c9cee.jpg https://telegra.ph/file/e17d2d068f71a9867d554.jpg https://telegra.ph/file/8fb1ae7d995e8735a7c25.jpg https://telegra.ph/file/8fed19586b4aa019ec215.jpg https://telegra.ph/file/8e6c923abd6139083e1de.jpg https://telegra.ph/file/0049d801d29e83d68b001.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/QIS.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/QIS.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/QIS.jpg'))
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/tYV.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
