@@ -50,7 +50,7 @@ UPDATE_CAPTION = """<b>𝖭𝖤𝖶 {} 𝖠𝖣𝖣𝖤𝖣 ✅</b>
 
 {}
 
-<blockquote>〽️ Powered by @Jisshu_bots</b></blockquote>"""
+<blockquote>〽️ Powered by @akimax06</b></blockquote>"""
 
 QUALITY_CAPTION = """📦 {} : {}\n"""
 
@@ -209,7 +209,7 @@ async def send_movie_update(bot, file_name, files):
 
     except Exception as e:
         print('Failed to send movie update. Error - ', e)
-        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @Jisshu_support.</blockquote>")
+        await bot.send_message(LOG_CHANNEL, f"Failed to send movie update. Error - {e}'\n\n<blockquote>If you don’t understand this error, you can ask in our support group: @akimax06.</blockquote>")
 
 
 async def get_imdb(file_name):
@@ -336,3 +336,4 @@ def format_file_size(size_bytes):
             return f"{size_bytes:.2f} {unit}"
         size_bytes /= 1024
     return f"{size_bytes:.2f} PB"
+
