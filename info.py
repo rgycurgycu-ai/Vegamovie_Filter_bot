@@ -43,8 +43,8 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002084819782'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002084819782'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002437541681')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002084819782'))
-request_channel = environ.get('REQUEST_CHANNEL', 'LOG_CHANNEL') # If anyone sends a request message to your bot, you will get it in this channel.
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002263224485'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002208017487') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002437541681')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
@@ -61,8 +61,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "1492d7161b70dea738aa23dcb3163be9
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'aklinkpays.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "1492d7161b70dea738aa23dcb3163be93b624a6d")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'aklinkpays.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "0"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
@@ -94,7 +94,7 @@ PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 600))
-IMDB = is_enabled('IMDB', True)
+IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', True)
