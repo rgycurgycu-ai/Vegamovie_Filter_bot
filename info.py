@@ -115,7 +115,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = True
-URL = environ.get("FQDN", "")
+URL = environ.get("FQDN", "progressive-emelina-vegamovienewbot-ad86079b.koyeb.app")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
