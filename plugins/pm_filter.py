@@ -772,13 +772,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             return   
 	
     elif query.data.startswith("stream"):
-            file_id = Data.split(":")
-            user_id = query.from_user.id
-            log_msg = await client.send_cached_media(
+        user_id = query.from_user.id
+        file_id = query.data.split('#', 1)[1]
+        log_msg = await client.send_cached_media(
         chat_id=LOG_CHANNEL,
         file_id=file_id
         )
-        fileName = {quote_plus(get_name(log_msg))}
+        fileName = quote_plus(get_name(log_msg))
         online = f"{URL}watch/{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         download = f"{URL}{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         btn = [[
