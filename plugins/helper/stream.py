@@ -24,7 +24,7 @@ async def stream_start(client, message):
             chat_id=LOG_CHANNEL,
             file_id=fileid,
         )
-        fileName = {quote_plus(get_name(log_msg))}
+        fileName = file.file_name
         stream = f"{URL}watch/{str(log_msg.id)}?hash={get_hash(log_msg)}"
         download = f"{URL}{str(log_msg.id)}?hash={get_hash(log_msg)}"
  
