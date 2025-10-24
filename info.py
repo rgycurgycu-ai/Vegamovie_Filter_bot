@@ -14,18 +14,18 @@ def is_enabled(value, default):
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21643763'))
-API_HASH = environ.get('API_HASH', '7c5af0b88c33d2f5cce8df5d82eb2a94')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_HASH = environ.get('API_HASH', '9ab0b0e819951db76417c7e4962ccdf5')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7262086950:AAG5nSNn_JYa7zA0OUAOOpFK97h4AxnhPAY')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629 7386197638').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Mahesh8182") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/akimax06')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003001499416').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5095951697').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/thamburanmovies") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003142539096'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/thamburanmovies')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003271535001').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rahul:Rahulalppatta@cluster0.vswch4c.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
@@ -39,14 +39,14 @@ S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When F
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002084819782'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002084819782')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002084819782'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1003180553398')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1003142539096'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+auth_channel = environ.get('AUTH_CHANNEL', '-1001723537556')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002263224485'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002208017487') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002437541681')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
+request_channel = environ.get('REQUEST_CHANNEL', '-1002711680347') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002995973276')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+S6B6CphMcYA1NWQ9') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
